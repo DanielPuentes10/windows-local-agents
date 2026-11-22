@@ -1,0 +1,27 @@
+{
+  "Script": "SystemHealthReport",
+  "Version": "1.0",
+  "OverallStatus": "Warning",
+  "ExitCode": 1,
+  "Hostname": "<redacted>",
+  "DurationSeconds": 17.1,
+  "EventHours": 48,
+  "Timestamp": "2026-11-22T08:23:00Z",
+  "Sections": {
+    "CPU": "Ok",
+    "Memory": "Ok",
+    "Disk": "Ok",
+    "Services": "Warning",
+    "Events": "Warning"
+  },
+  "Findings": [
+    {
+      "Type": "Service",
+      "Name": "NlaSvc",
+      "StartMode": "Manual",
+      "Status": "Stopped",
+      "Health": "Warning"
+    }
+  ],
+  "Notes": "No Critical findings. NlaSvc correctly classified as Warning."
+}

@@ -1,0 +1,15 @@
+{
+  "Bundle": "SupportBundle-sample",
+  "Created": "2026-11-22T08:25:00Z",
+  "Hostname": "<redacted>",
+  "ExitCode": 1,
+  "DurationSeconds": 40.0,
+  "Contents": [
+    "system/os.json",
+    "disk/volumes.json",
+    "events/errors.json",
+    "services/services.json",
+    "network/network.json"
+  ],
+  "Notes": "Sample bundle for demonstration. All host-specific data redacted."
+}

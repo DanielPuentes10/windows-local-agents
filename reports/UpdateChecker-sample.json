@@ -1,0 +1,13 @@
+{
+  "Script": "UpdateChecker",
+  "Version": "1.0",
+  "OverallStatus": "Warning",
+  "ExitCode": 1,
+  "DurationSeconds": 2.6,
+  "Timestamp": "2026-11-22T08:23:10Z",
+  "PendingUpdates": 5,
+  "RebootRequired": true,
+  "CriticalUpdates": 0,
+  "SnapshotAgeHours": 0.2,
+  "Notes": "Dry-run. Snapshot reused. No Critical updates."
+}
